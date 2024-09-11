@@ -1,4 +1,4 @@
---HAHA
+--HAHAHAHA
 local __bundle_require, __bundle_loaded, __bundle_register, __bundle_modules = (function(superRequire)
 	local loadingPlaceholder = {[{}] = true}
 
@@ -2127,7 +2127,7 @@ local Searcher = {
     end,
 
     FindIl2cpp = function()
-        local il2cpp = gg.getRangesList('liblogic.so') --You Can Change This Lib Name As You Want
+        local il2cpp = gg.getRangesList('libcsharp.so') --You Can Change This Lib Name As You Want
         if #il2cpp == 0 then
             il2cpp = gg.getRangesList('split_config.')
             local _il2cpp = {}
